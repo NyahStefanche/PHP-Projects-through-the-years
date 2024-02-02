@@ -1,0 +1,38 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+#main {
+  margin-left: 160px; /* Задава се същата широчина каквато е и на sidenav */
+  font-size: 14px; /* Големина на буквите на основния текст/документ */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+table.table1
+{
+	width:100%;
+}
+
+table,th,tr
+{
+	border: 5px solid black;
+}
+
+tr:nth-child(even) 
+{
+	background-color: #919191;
+}
+
+tr:nth-child(odd) 
+{
+	background-color: #B1B1B1;
+}
+
+a:hover
+{
+	color:#8B0000;
+}
